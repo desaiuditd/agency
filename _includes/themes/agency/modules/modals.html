@@ -14,7 +14,7 @@
                         <div class="modal-body">
                             <h2>{{ portfolio.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ portfolio.img }}" class="img-responsive img-centered" alt="{{ portfolio.alt }}">
+                            <img src="{{ ASSET_PATH }}/img/portfolio/{{ portfolio.img }}" class="img-responsive img-centered" alt="{{ portfolio.alt }}">
                             <p>{{ portfolio.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:

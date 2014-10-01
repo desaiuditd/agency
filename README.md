@@ -1,6 +1,4 @@
-## Incognitech
-
-Source Code for http://incognitech.in or http://blog.incognitech.in
+## Agency Jekyll-Bootstrap Theme Demo Site
 
 Developed using Jekyll, Jekyll-BootStrap.
 

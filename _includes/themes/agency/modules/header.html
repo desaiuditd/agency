@@ -20,13 +20,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{% if page.path != "index.md" %}{{ HOME_PATH }}{% endif %}#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="{% if page.path != "index.md" %}{{ HOME_PATH }}{% endif %}#skills">Skills</a>
+                        <a class="page-scroll" href="{% if page.path != "index.md" %}{{ HOME_PATH }}{% endif %}#services">Services</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="{% if page.path != "index.md" %}{{ HOME_PATH }}{% endif %}#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{% if page.path != "index.md" %}{{ HOME_PATH }}{% endif %}#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{% if page.path != "index.md" %}{{ HOME_PATH }}{% endif %}#team">Team</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="{% if page.path == "index.md" %}#blog{% else %}{{ HOME_PATH }}blog.html{% endif %}">Blog</a>
@@ -46,14 +49,9 @@
         <!-- Header -->
         <header>
             <div class="container">
-                <div class="team-member">
-                    <img src="{{ ASSET_PATH }}/img/team/udit.jpg" class="img-responsive img-circle" alt="">
-                    <h4>{{ site.author.name }}</h4>
-                    <p class="text-muted">{{ site.author.position }}</p>
-                </div>
                 <div class="intro-text">
-                    <div class="intro-heading">Welcome To Incognitech!</div>
-                    <div class="intro-lead-in">{{ site.tagline }}</div>
+                    <div class="intro-lead-in">Welcome To Our Studio!</div>
+                    <div class="intro-heading">It's Nice To Meet You</div>
                     <a href="#about" class="page-scroll btn btn-xl">Explore</a>
                 </div>
             </div>

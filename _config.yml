@@ -8,16 +8,13 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Incognitech
-tagline: Ramblings of an Incognito Mind :P
+title : Awesome Title
+tagline: Awesome Tagline
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 author :
-  name : Udit Desai
-  email : desaiuditd@gmail.com
-  github : desaiuditd
-  twitter : desaiuditd
-  position : Web Developer
-  pic : udit
-github_repo: https://github.com/desaiuditd/desaiuditd.github.io
+  name : Your Name
+  email : your-email@domain.com
+github_repo : https://github.com/{your-username}/{your-github-repo}
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -27,7 +24,7 @@ github_repo: https://github.com/desaiuditd/desaiuditd.github.io
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://incognitech.in
+production_url :
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -84,7 +81,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : blogincognitechin
+      short_name :
     livefyre :
       site_id :
     intensedebate :
@@ -102,7 +99,7 @@ JB :
   analytics :
     provider : google
     google :
-        tracking_id : 'UA-46748923-1'
+        tracking_id :
     getclicky :
       site_id :
     mixpanel :
@@ -138,36 +135,55 @@ color:
   secondary-dark: 333
 
 # Team names, titles and social links
-# people:
-# - name: Udit Desai
-#   pic: udit
-#   position: Web Developer
-#   social:
-#     - title: twitter
-#       url: https://twitter.com/desaiuditd
-#     - title: facebook
-#       url: https://facebook.com/desaiuditd
-#     - title: google-plus
-#       url: https://plus.google.com/+UditDesaiIncog
-#     - title: instagram
-#       url: http://instagram.com/desaiuditd
-#     - title: github
-#       url: https://github.com/desaiuditd
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
 
 social:
     - title: twitter
-      url: https://twitter.com/desaiuditd
+      url: #
     - title: facebook
-      url: https://facebook.com/desaiuditd
+      url: #
     - title: google-plus
-      url: https://plus.google.com/+UditDesaiIncog
+      url: #
     - title: instagram
-      url: http://instagram.com/desaiuditd
+      url: #
     - title: github
-      url: https://github.com/desaiuditd
+      url: #
 
 
 markdown: kramdown
 
+# For Emoticons Support
 gems:
   - jemoji
