@@ -3,17 +3,16 @@
 
   {% include themes/agency/modules/head.html %}
 
+
     <body id="page-top" class="index">
 
         <div id="wrap">
             {% include themes/agency/modules/header.html %}
             {% if page.path == "index.md" %}
-                {% include themes/agency/modules/services.html %}
-                {% include themes/agency/modules/portfolio_grid.html %}
                 {% include themes/agency/modules/about.html %}
-                {% include themes/agency/modules/team.html %}
+                {% include themes/agency/modules/skills.html %}
+                {% include themes/agency/modules/portfolio_grid.html %}
                 {% include themes/agency/modules/blog.html %}
-                {% include themes/agency/modules/clients.html %}
                 {% include themes/agency/modules/contact.html %}
             {% endif %}
         </div>

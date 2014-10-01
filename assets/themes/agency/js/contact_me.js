@@ -18,8 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                // Update your own URL
-                url: "{{Send Email Script URL}}",
+                url: "http://getsimpleform.com/messages/ajax?form_api_token=64b65c4eb0304de825c3c090e7f5dee5",
                 dataType: 'jsonp',
                 data: {
                     name: name,
