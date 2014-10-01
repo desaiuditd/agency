@@ -18,8 +18,8 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                // Update your own URL
-                url: "{{Send Email Script URL}}",
+                // Update your own Script URL
+                url: "Send Email Script URL",
                 dataType: 'jsonp',
                 data: {
                     name: name,

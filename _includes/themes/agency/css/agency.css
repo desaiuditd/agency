@@ -11,7 +11,7 @@ body {
 }
 
 .text-muted {
-    color: #999;
+    color: #777;
 }
 
 .text-primary {
@@ -21,15 +21,10 @@ body {
 p {
     font-size: 14px;
     line-height: 1.75;
-    margin: 0 0 20px;
 }
 
 p.large {
     font-size: 16px;
-}
-
-li {
-    margin-bottom: 20px;
 }
 
 a,
@@ -216,10 +211,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.color.primary }};
 }
 
-.nav li {
-    margin-bottom: 0px;
-}
-
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -295,42 +286,48 @@ header {
 }
 
 header .intro-text {
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 11px;
+    font-size: 22px;
     font-style: italic;
-    line-height: 11px;
+    line-height: 22px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 50px;
 }
 
 @media(min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 20px;
+        font-size: 40px;
         font-style: italic;
-        line-height: 20px;
+        line-height: 40px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 75px;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 75px;
     }
 }
 
@@ -359,7 +356,7 @@ section h3.section-subheading {
     }
 }
 
-.skill-heading {
+.service-heading {
     margin: 15px 0;
     text-transform: none;
 }
@@ -642,8 +639,7 @@ section h3.section-subheading {
 }
 
 .team-member {
-    margin-top: 200px;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
