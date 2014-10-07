@@ -7,27 +7,27 @@ Agency theme based on [Agency bootstrap theme](http://startbootstrap.com/templat
 
 ###Portfolio
 
-Portfolio projects are in '/_data/portfolios.yaml'
+Portfolio projects are in `/_data/portfolios.yaml`
 
 I had to move this under Jekyll Datafiles as I wanted to use Jekyll posts as my blog posts.
 
-Images are in '/img/portfolio'
+Images are in `/img/portfolio`
 
 ###About
 
-Images are in '/img/about/'
+Images are in `/img/about/`
 
 ###Team
 
-Team members and info are in '_config.yml'
+Team members and info are in `_config.yml`
 
-Images are in '/img/team/'
+Images are in `/img/team/`
 
 # Demo
 
 View this jekyll-bootstrap theme in action [here](https://desaiuditd.github.io/agency/)
 
-=========
+======================
 For more details, read [documentation](http://jekyllrb.com/)
 Also [Jekyll-Bootstrap](http://jekyllbootstrap.com/)
 
