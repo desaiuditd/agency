@@ -9,6 +9,8 @@ Agency theme based on [Agency bootstrap theme](http://startbootstrap.com/templat
 
 Portfolio projects are in '/_data/portfolios.yaml'
 
+I had to move this under Jekyll Datafiles as I wanted to use Jekyll posts as my blog posts.
+
 Images are in '/img/portfolio'
 
 ###About
